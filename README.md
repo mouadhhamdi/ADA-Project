@@ -54,8 +54,19 @@ The hybrid dataset is composed of four parts:
 
   
 - Network Analysis: 
-  model our dataset in a graph format and learn about the nodes connections(example: connected components) 
-
+  - A graph created with the name of the country as the indentifiant of the node, it was used to run some analysis
+  such us it's connected components which we used to identify that there was two big subgraphs that contains most of 
+  the nodes.
+  
+  - The Degree Centrality algorithm is employed to see the importance of the nodes of the graph which in our case
+  are countries.
+  
+  - The Page Rank algorith is also used to check the importance of countries based on the incoming link which will 
+  help identify the countries with most important numbers of entities, intermediaries and officers.
+  
+  - A second graph is created, this time with the node_id as the identifiant of the node. This graph will be used to 
+  help us discover hidden links between countries for example: if there is a country that do suspicious activities using an     other entity that it controles in an other country.
+  
 - Creation of indexes: 
     - Using previous analysis and data processing we were able to create our own ranking for countries. 
     Up to now, we have a ranking according to count of entities, officers and intermediaries in each country.
