@@ -62,11 +62,11 @@ The hybrid dataset is composed of four parts:
     Up to now, we have a ranking according to count of entities, officers and intermediaries in each country.
     
 At the end of this milestone we should find those statistics:
-- Ranks countries accourding to several number of classes e.g:
+  - Ranks countries accourding to several number of classes e.g:
   - The top countries that have the most number of links with Mossacka Fonseca and other suspicous law firms.
   - The top countries that are considered as tax havens.
   - The most connected countries in the graph.
-  -
+  
 - Visualize the distribution of those numbers around the world 
 #### Internal milestones up until milestone 3:
 
