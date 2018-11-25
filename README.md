@@ -82,6 +82,7 @@ At the end of this milestone we have found those statistics:
 - Select Top Tax havens and top countries with bank secrecy and highlight the effect on both side of the story.
 
 #### Run the code:
+
 To be able to run the code you need to unzip the compressed files:
     - big_data_to_compress.tar.gz
     - data_cleaned.tar.gz
