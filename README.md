@@ -84,9 +84,9 @@ At the end of this milestone we have found those statistics:
 #### Run the code:
 
 To be able to run the code you need to unzip the compressed files:
-    - big_data_to_compress.tar.gz
-    - data_cleaned.tar.gz
-    - data_follium.tar.gz
+- big_data_to_compress.tar.gz
+- data_cleaned.tar.gz
+- data_follium.tar.gz
 
 #### Resources:
 www.gfintegrity.org illicit financial flows from developing countries.
