@@ -40,7 +40,7 @@ The hybrid dataset is composed of four parts:
     . Since our analysis will focus on countries, we matched node id's to the their country name 
     
     . Country names needed to be cleaned, some rows contains multiple names of countries so we have an expansion of rows
-      according to ';' character. From this, we alsoo created a Json file that will be used for follium visualisation.
+        according to ';' character. From this, we alsoo created a Json file that will be used for follium visualisation.
       
     . Finally, we saved our cleaned dataframes in a new folder to use them later for data wrangling.
     
