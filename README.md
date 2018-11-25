@@ -52,9 +52,14 @@ The hybrid dataset is composed of four parts:
       
     - The evolution over time of the entities was important to be visualised. We could've seen that this suspicious 
      activity has grown exponentially at the end of nineties.
+
   
 - Network Analysis: 
   model our dataset in a graph format and learn about the nodes connections(example: connected components) 
+
+- Creation of indexes: 
+    - Using previous analysis and data processing we were able to create our own ranking for countries. 
+    Up to now, we have a ranking according to count of entities, officers and intermediaries in each country.
 At the end of this milestone we should find those statistics:
 - Ranks countries accourding to several number of classes e.g:
   - The top countries that have the most number of links with Mossacka Fonseca and other suspicous law firms.
@@ -69,5 +74,6 @@ At the end of this milestone we should find those statistics:
 - Select Top 1 Tax havens and top 1 country with suspicous investmens and highlight the effect on both side of the story.
 
 #### Resources:
-ADD links
 www.gfintegrity.org illicit financial flows from developing countries.
+https://www.financialsecrecyindex.com/ financial secrecy index
+https://www.transparency.org/research/cpi/overview corruption perception index
