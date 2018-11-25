@@ -24,8 +24,8 @@ The hybrid dataset is composed of four parts:
     * Officers: a person or a company who plays role in an offshore entity.
     * Intermediairies: the link between someone seeking an offshore and an offshore service provider.
     * Addresses: description of the addresses contained in the dataset.
-    * Edges: they connect nodes from the above parts and describe the nature of the relation between them, it's has three
-     important features 'registered address', 'beneficiary of' and 'intermediary of'.
+    * Edges: they connect nodes from the above parts and describe the nature of the relation between them, 
+      it's has three important features 'registered address', 'beneficiary of' and 'intermediary of'.
      
 #### Internal milestones up until milestone 2:
 - Data collection:
