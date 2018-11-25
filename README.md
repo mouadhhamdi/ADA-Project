@@ -60,6 +60,7 @@ The hybrid dataset is composed of four parts:
 - Creation of indexes: 
     - Using previous analysis and data processing we were able to create our own ranking for countries. 
     Up to now, we have a ranking according to count of entities, officers and intermediaries in each country.
+    
 At the end of this milestone we should find those statistics:
 - Ranks countries accourding to several number of classes e.g:
   - The top countries that have the most number of links with Mossacka Fonseca and other suspicous law firms.
