@@ -13,10 +13,9 @@ The Panama Papers involved hundred thousands of offshore accounts, millions of d
 - Panama papers
 
 Unfortunately, we don't have access to big part of the data and metadata from the original leaks so we decided to enrich our data with other similar datasets:
-
-    . Paradise papers
-    . Offshore leaks
-    . Bahamas leaks
+    - Paradise papers
+    - Offshore leaks
+    - Bahamas leaks
     
 The hybrid dataset is composed of four parts: 
 
@@ -45,9 +44,13 @@ The hybrid dataset is composed of four parts:
     - Finally, we saved our cleaned dataframes in a new folder to use them later for data wrangling.
     
 - Data wrangling: 
-At this point of the project we needed to get more familiar with our data so we decided to do some plots:
-    - 
-    - 
+    At this point of the project we needed to get more familiar with our data so we decided to do some plots:
+    - We plotted the counts of entities, officers and intermediairies per each country in a stacked format.
+    - We where also interrested in the number of active intermediaries which will help us to understand how the 
+      network was connected at the last time snapshot.
+    - The evolution over time of the entities was important to be visualised. We could've seen that this suspicious 
+     activity has grown exponentially at the end of nineties.
+  
 - Network Analysis: 
   model our dataset in a graph format and learn about the nodes connections(example: connected components) 
 At the end of this milestone we should find those statistics:
