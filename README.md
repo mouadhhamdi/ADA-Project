@@ -46,8 +46,10 @@ The hybrid dataset is composed of four parts:
 - Data wrangling: 
     At this point of the project we needed to get more familiar with our data so we decided to do some plots:
     - We plotted the counts of entities, officers and intermediairies per each country in a stacked format.
+    
     - We where also interrested in the number of active intermediaries which will help us to understand how the 
       network was connected at the last time snapshot.
+      
     - The evolution over time of the entities was important to be visualised. We could've seen that this suspicious 
      activity has grown exponentially at the end of nineties.
   
