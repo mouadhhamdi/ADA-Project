@@ -12,6 +12,19 @@ The Panama Papers involved hundred thousands of offshore accounts, millions of d
 #### Dataset:
 - Panama papers
 
+Unfortunately, we don't have access to big part of the data and metadata from the original leaks so we decided to enrich our data with other similar datasets:
+    . Paradise papers
+    . Offshore leaks
+    . Bahamas leaks
+    
+The hybrid dataset is composed of four parts: 
+    * Entities: is a company, trust or fund created in a low tax offshore jurisdiction.
+    * Officers: a person or a company who plays role in an offshore entity.
+    * Intermediairies: the link between someone seeking an offshore and an offshore service provider.
+    * Addresses: description of the addresses contained in the dataset.
+    * Edges: they connect nodes from the above parts and describe the nature of the relation between them, it's has three
+     important features 'registered address', 'beneficiary of' and 'intermediary of'.
+     
 #### Internal milestones up until milestone 2:
 - Data collection:
     We will add to Panama papers Bahamas Papers, Paradise papers and offshore papers to have more relevent numbers.                         Searching for other datasets related to financial statistics and corruption around the world: CPI- Courrption perception index
