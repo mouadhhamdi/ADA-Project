@@ -33,12 +33,17 @@ The hybrid dataset is composed of four parts:
     FSI : Financial secrecy index, AML: Anti Money Laundring. 
 - Cleaning data: 
     . We concatinated entries from above datasets, to do so we modified some feature names in order to to have the same
-      columns names
+      columns names 
+      
     . We also added new columns to identify the natures of each node {entity, addresse, intermediary, officer}
-    . Since our analysis will focus on countries, we matched node id's to the their country name
+    
+    . Since our analysis will focus on countries, we matched node id's to the their country name 
+    
     . Country names needed to be cleaned, some rows contains multiple names of countries so we have an expansion of rows
       according to ';' character. From this, we alsoo created a Json file that will be used for follium visualisation.
+      
     . Finally, we saved our cleaned dataframes in a new folder to use them later for data wrangling.
+    
 - Data wrangling: 
 - Network Analysis: 
   model our dataset in a graph format and learn about the nodes connections(example: connected components) 
