@@ -77,6 +77,7 @@ At the end of this milestone we have found those statistics:
   
 #### Internal milestones up until milestone 3:
 
+- Use a more sophisticated graph to reveal hidden connections between countries, investigate if an entity controle or have shares in an other entity in an other country that uses to do some shady business.
 - Try to see if the rankings we could provide up to milestone 2 are coherent with world statistics.
 - Collect other usefull data about the situation of some countries. Growth index,income gini index, financial situation, Education ..
 - Select Top Tax havens and top countries with bank secrecy and highlight the effect on both side of the story.
@@ -89,6 +90,7 @@ To be able to run the code you need to unzip the compressed files:
 - data_follium.tar.gz
 
 #### Resources:
-www.gfintegrity.org illicit financial flows from developing countries.
-https://www.financialsecrecyindex.com/ financial secrecy index
-https://www.transparency.org/research/cpi/overview corruption perception index
+- www.gfintegrity.org illicit financial flows from developing countries.
+- https://www.financialsecrecyindex.com/ financial secrecy index.
+- https://www.transparency.org/research/cpi/overview corruption perception index.
+- https://www.kaggle.com/unsdsn/world-happiness Happiness index.
