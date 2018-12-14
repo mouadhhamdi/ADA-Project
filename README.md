@@ -61,7 +61,8 @@ The hybrid dataset is composed of four parts:
 
   
 - Network Analysis: 
-    - firts approach: 
+    - first approach: 
+    
       - A graph created with the name of the country as the indentifiant of the node.
 
       - The Degree Centrality algorithm is employed to see the importance of the nodes of the graph which in our case
@@ -73,8 +74,10 @@ The hybrid dataset is composed of four parts:
       - Betweenes centrality algorithm served to detect nodes that serves more as bridges, this algorithm brought to light a new set of countries that does not figures analysis or it improved remarkably theire ranking such as Panama, Jersey. Others countries do not figures in top ten, one example is Russia.
 
       - To understand and to figure the nature of those relations between countries we use the edge betweenness centrality which basicaly gives us the importance of edges in the graph. The results surprised us since we expected that the most important edges will be between countries that appeared earlier in our analyis but a new set of countries came into the field. Some of those edges are (Switzerland, Mali), (Hong Kong, Namibia). Those edges made us consider that maybe shady business in countries such as Namibia are maybe runned by entities in Hong Kong.
-  
-  - To enhance our analyis, we created a new bipartite graph which in one hand contain the node_id and in the other hand the countries names. The main objective of creating such graph is to highlight the importance of connections between countries, to do so we projected our graph into a new weighted graph. If more than one node is connected to two country the new weighted graph will set the weight as the number of those related nodes.
+    - Second approach:
+     
+      - To enhance our analyis, we created a new bipartite graph which in one hand contain the node_id and in the other hand the countries names. 
+      - The main objective of creating such graph is to highlight the importance of connections between countries, to do so we projected our graph into a new weighted graph. If more than one node is connected to two country the new weighted graph will set the weight as the number of those related nodes.
   
 - Network visualisation:
     - Our dataset represents connections between countries according to a set of attributes (Entities, officers and intermediairies). One of our goals was to visualize those connections and implement a robust code that will help us switch attributes and visualize as much as possible of specific connections.
