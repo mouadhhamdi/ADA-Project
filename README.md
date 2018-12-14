@@ -74,11 +74,26 @@ The hybrid dataset is composed of four parts:
       - Betweenes centrality algorithm served to detect nodes that serves more as bridges, this algorithm brought to light a new set of countries that does not figures analysis or it improved remarkably theire ranking such as Panama, Jersey. Others countries do not figures in top ten, one example is Russia.
 
       - To understand and to figure the nature of those relations between countries we use the edge betweenness centrality which basicaly gives us the importance of edges in the graph. The results surprised us since we expected that the most important edges will be between countries that appeared earlier in our analyis but a new set of countries came into the field. Some of those edges are (Switzerland, Mali), (Hong Kong, Namibia). Those edges made us consider that maybe shady business in countries such as Namibia are maybe runned by entities in Hong Kong.
+      
     - Second approach:
      
       - To enhance our analyis, we created a new bipartite graph which in one hand contain the node_id and in the other hand the countries names. 
+      
       - The main objective of creating such graph is to highlight the importance of connections between countries, to do so we projected our graph into a new weighted graph. If more than one node is connected to two country the new weighted graph will set the weight as the number of those related nodes.
-  
+      
+    - Third approach:
+    
+      - At this step we created a graph with node_id, the aim of this approach is see how a country can be connected to shady business in other countries using the type of relation between them.
+      
+      - In order to be consistent and to highlight the aspect we want to study, we had a look at the longest paths in our graph. 
+
+       - Thes longest path in this case is a proof that shady businesses are managed over multiple layers and not in a direct way. 
+       
+      - After getting a longest path nodes id we mapped them to theire corresponding countries. One example is: ['British Virgin Islands', 'Singapore', 'Thailand', 'Indonesia']. Those countries are related with different type of relations that we managed to visualise using graphistry. 
+      
+      - The previous analysis proves that a fraction of one country businesses  is managed by an other country. Also, the fact that there is multinational entities and officers that operates in multiple countries make our dataset more interesting and confusing at the same time.
+      
+
 - Network visualisation:
     - Our dataset represents connections between countries according to a set of attributes (Entities, officers and intermediairies). One of our goals was to visualize those connections and implement a robust code that will help us switch attributes and visualize as much as possible of specific connections.
     
