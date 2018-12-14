@@ -1,4 +1,8 @@
-## Title: Study of the Biggest Leak in History
+## Title: Study of the Biggest Leak in 
+
+#### Web site:
+The data story is available [here](https://elleuchkh.github.io/)
+
 #### Abstract:
 
 The Panama Papers involved hundred thousands of offshore accounts, millions of documents detailing top secret financial information were leaked in 2015 by an anonymous source. It is estimated that tax havens cost poor countries at least $170 billion in lost tax revenues each year making poorest people lose out and the inequality gap grow. Holding money in an offshore company is generally not illegal but it can be used to launder money, dodge sanctions, avoid taxes. Many people listed in the panama papers claimed being innocent. There is a huge amount of data, our work will be to provide a detailed analysis of the dataset. We will not focus our analysis on individuals but we will instead  be getting a closer view about the involved countries and the distribution of the papers  around the world and trying to find any correlation between the implication of each country in the panama papers with other finacial studies such as Financial secrecy index, Corruption ... and with any other interesting information we could get about those countries. 
