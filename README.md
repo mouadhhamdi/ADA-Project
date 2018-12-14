@@ -109,7 +109,9 @@ At the end of milestone 2 we had found those statistics:
   - The top countries that are considered as tax havens.
   - The most connected countries in the graph.
 
+
 Correlation to world indicator, Financial secrecy index:
+
     - formule pearson aleh!! ranking w fazet
     - kifeh hsebna, na7ina outliers!! 
     - resultat w comment 
