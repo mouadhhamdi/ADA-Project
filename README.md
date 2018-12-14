@@ -31,7 +31,7 @@ The hybrid dataset is composed of four parts:
     * Edges: they connect nodes from the above parts and describe the nature of the relation between them, 
       it's has three important features 'registered address', 'beneficiary of' and 'intermediary of'.
      
-#### Internal milestones up until milestone 2:
+#### Internal milestones up until milestone 3:
 - Data collection:
     We will add to Panama papers Bahamas Papers, Paradise papers and offshore papers to have more entries.                         Searching for other datasets related to financial statistics and corruption around the world: 
     - CPI: Courrption Perception Index
