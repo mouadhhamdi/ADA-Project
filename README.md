@@ -86,9 +86,11 @@ The hybrid dataset is composed of four parts:
       - At this step we created a graph with node_id, the aim of this approach is to see how a country can be linked to an other country via multiple nodes. 
       
       - First we computed the longest path in our graph.
+     
+      - Second the path nodes id were mapped to theire corresponding countries and edges to their corresponding types. 
+      
+      - Finally, we noticed that an entity can be based in different countries, so we used this to create different paths. One path example is: ['British Virgin Islands', 'Singapore', 'Thailand', 'Indonesia']. 
 
-      - Second the path nodes id were mapped to theire corresponding countries and edges to their corresponding types. One path example is: ['British Virgin Islands', 'Singapore', 'Thailand', 'Indonesia']. 
-            
       - The previous analysis proves that a fraction of one country businesses  is managed by an other country. Also, the fact that there is multinational entities and officers that operates in multiple countries make our dataset more interesting and confusing at the same time.
       
 
