@@ -112,7 +112,7 @@ At the end of milestone 2 we had found those statistics:
 Correlation to world indicator:
 fsi
   
-#### Internal milestones up until milestone 3:
+####  fassssssssssssa5 9bal submitttt ! nchoufou kethab w barra Internal milestones up until milestone 3:
 
 - Use a more sophisticated graph to reveal hidden connections between countries, investigate if an entity controle or have shares in an other entity in an other country that uses to do some shady business.
 - Try to see if the rankings we could provide up to milestone 2 are coherent with world statistics.
