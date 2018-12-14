@@ -36,7 +36,6 @@ The hybrid dataset is composed of four parts:
     We will add to Panama papers Bahamas Papers, Paradise papers and offshore papers to have more entries.                         Searching for other datasets related to financial statistics and corruption around the world: 
     - CPI: Courrption Perception Index
     - FSI: Financial Secrecy Index
-    - AML: Anti Money Laundring 
 - Cleaning data: 
     - Concatenate entries from Panama papers, Bahamas Papers, Paradise papers and offshore papers and try to have 4 clean datasets related to entities, officers, intermediaires and edges. 
       
