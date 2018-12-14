@@ -83,14 +83,12 @@ The hybrid dataset is composed of four parts:
       
     - Third approach:
     
-      - At this step we created a graph with node_id, the aim of this approach is see how a country can be connected to shady business in other countries using the type of relation between them.
+      - At this step we created a graph with node_id, the aim of this approach is to see how a country can be linked to an other country via multiple nodes. 
       
-      - In order to be consistent and to highlight the aspect we want to study, we had a look at the longest paths in our graph. 
+      - First we computed the longest path in our graph.
 
-       - Thes longest path in this case is a proof that shady businesses are managed over multiple layers and not in a direct way. 
-       
-      - After getting a longest path nodes id we mapped them to theire corresponding countries. One example is: ['British Virgin Islands', 'Singapore', 'Thailand', 'Indonesia']. Those countries are related with different type of relations that we managed to visualise using graphistry. 
-      
+      - Second the path nodes id were mapped to theire corresponding countries and edges to their corresponding types. One path example is: ['British Virgin Islands', 'Singapore', 'Thailand', 'Indonesia']. 
+            
       - The previous analysis proves that a fraction of one country businesses  is managed by an other country. Also, the fact that there is multinational entities and officers that operates in multiple countries make our dataset more interesting and confusing at the same time.
       
 
