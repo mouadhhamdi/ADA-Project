@@ -96,8 +96,6 @@ The hybrid dataset is composed of four parts:
 - Network visualisation:
     - Our dataset represents connections between countries according to a set of attributes (Entities, officers and intermediairies). One of our goals was to visualize those connections and implement a robust code that will help us switch attributes and visualize as much as possible of specific connections.
     
-    - Folium tools helped us visualize the distributions of entities and officers arround the world. Weighted circles were put at the top of each country so that we could compare for example the number of entities per countries. 
-    
     - The next challenge was to see how those attributes were connected arround the world. For our analysis and to be able to have a nice visulaisation we decided to consider connections between Switzerland and other countries since Switzerland is one of the countries that have an important number of entities in it's territory.
     For this analysis we used the basemap library which have a nice visualisation features. However, in the notebook you can see how Switzerland entities are connected to world entities.
     
