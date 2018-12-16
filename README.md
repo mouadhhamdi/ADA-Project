@@ -103,10 +103,10 @@ The hybrid dataset is composed of four parts:
 
 At the end of milestone 2 we had found those statistics:
 
-    - Ranks countries accourding to several number of classes e.g:
-    - The top countries that have the most number of links with Mossacka Fonseca and other suspicous law firms.
-    - The top countries that are considered as tax havens.
-    - The most connected countries in the graph.
+   - Ranks countries accourding to several number of classes e.g:
+   - The top countries that have the most number of links with Mossacka Fonseca and other suspicous law firms.
+   - The top countries that are considered as tax havens.
+   - The most connected countries in the graph.
 
 
 
