@@ -105,9 +105,13 @@ The hybrid dataset is composed of four parts:
 - Correlation to world indicator, Financial Secrecy Index:
 
     - We wanted to find any correlation between the implication of each country in the panama papers with official indexes published by world wide organizations. 
+    
     - We worked with the pearson correlation because we were intereseted in the rank correlation not the values.
+    
     - We computed the correlation with the count of the 3 categories of involved countries (entities, officers and intermediaries). Also, we studied the correlation with  the network properties to be more sure.
+    
     - We removed Outliers when neccessary.
+    
     - All the correlations were between 0.6 and 0.7 which is a satisfying result : That means that the countries having a good ranking regarding Financial Secrecy Index (FSI) attract more offshore entities
   
 
