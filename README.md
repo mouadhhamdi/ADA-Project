@@ -116,7 +116,7 @@ At the end of milestone 2 we had found those statistics:
     - We worked with the pearson correlation because we were intereseted in the rank correlation not the values.
     - We computed the correlation with the count of the 3 categories of involved countries (entities, officers and intermediaries). Also, we studied the correlation with  the network properties to be more sure.
     - We removed Outliers when neccessary.
-    - All the correlation were between 0.6 and 0.7 which is a satisfying result : That means that the countries having a good ranking regarding Financial Secrecy Index (FSI) attract more offshore entities
+    - All the correlations were between 0.6 and 0.7 which is a satisfying result : That means that the countries having a good ranking regarding Financial Secrecy Index (FSI) attract more offshore entities
   
 
 #### Run the code:
